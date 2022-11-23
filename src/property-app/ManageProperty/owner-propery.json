@@ -1,0 +1,16 @@
+[
+    {
+        "reqId":"REQ23498843",
+        "propertyName": "abc limited",
+        "propertyID": "123",
+        "datePosted": "20/11/2022",
+        "status": "P"
+    },
+    {
+        "reqId":"REQ23498844",
+        "propertyID": "124",
+        "propertyName": "def limited",
+        "datePosted": "20/10/2022",
+        "status": "A"
+    }
+]
