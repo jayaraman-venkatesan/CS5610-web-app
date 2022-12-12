@@ -13,20 +13,7 @@ const propertiesSlice = createSlice({
     name: 'properties',
     initialState,
     extraReducers: {
-        [findPropertiesThunk.pending]:
-            (state) => {
-                state.loading = true
-                state.properties = []
-            },
-        [findPropertiesThunk.fulfilled]:
-            (state, { payload }) => {
-                state.loading = false
-                state.properties = payload
-            },
-        [findPropertiesThunk.rejected]:
-            (state) => {
-                state.loading = false
-            },
+    
         [findPropertiesThunkById.fulfilled]:
             (state,{payload}) => {
                 state.loading = false

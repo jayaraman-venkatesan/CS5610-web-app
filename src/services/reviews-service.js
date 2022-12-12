@@ -1,8 +1,8 @@
 import { axiosRequest } from './utils/axios';
-const API_BASE = "http://localhost:4000/api/reviews";
+const API_BASE = "/reviews";
 
 export const createReview = async (newReview) => {
-    const response = await axiosRequest.post("http://localhost:4000/api/reviews", newReview);
+    const response = await axiosRequest.post("/reviews", newReview);
     return response.data;
 }
 export const findReviewsByProductId = async (productId) => {
